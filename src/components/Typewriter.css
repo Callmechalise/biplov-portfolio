@@ -1,0 +1,20 @@
+/* src/components/Typewriter.css */
+.typewriter {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.typewriter-text {
+  color: var(--accent-color);
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  color: var(--accent-color);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
